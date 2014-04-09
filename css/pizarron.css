@@ -1,0 +1,129 @@
+.elemento{
+    
+     margin-left:10px;
+}
+
+.elemento:hover{
+        background-color: #dfe3e7;
+        cursor: pointer;
+        border-radius: 3px;
+}
+.elemento:active{
+    background-color: #7C99AA;
+        cursor: pointer;
+        border-radius: 3px;
+}
+
+.boton{
+    cursor: pointer;
+}
+
+.flecha{
+
+    /*display: block;*/
+    width: 0;
+    height: 0;
+    border: solid;
+    /* top: 342px;
+     left: 20px;*/
+    border-width: 6px 4px 0px 4px;
+    border-color: black transparent transparent transparent;
+    z-index: 3;
+    /*   position: absolute;*/
+}
+
+  .custom-input-file {
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+
+    }
+    .custom-input-file .input-file {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        font-size: 10000px;
+        border: 10000px solid transparent;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        position: absolute;
+        right: -1000px;
+        top: -1000px;
+        cursor: pointer;
+    }
+
+    .custom-input-file:hover {
+        color: #006598;
+        padding: 5px;
+    }
+    .custom-input-file {
+        cursor: pointer;
+        background-color:#3bb3e0;
+        padding:7px;
+        position:relative;
+        font-family: 'Open Sans', sans-serif;
+        font-size:16px;
+        text-decoration:none;
+        color: #006598;
+        border: solid 1px #1a9bc1;
+        background-image: linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -o-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -moz-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -ms-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(223, 236, 248)),
+            color-stop(1, rgb(203, 216, 228)),
+            color-stop(2, rgb(130, 159, 228))
+        );
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .custom-input-file::before {
+        background-color:#ccd0d5;
+        content:"";
+        display:block;
+        position:absolute;
+        width:100%;
+        height:100%;
+        padding:4px;
+        left:-8px;
+        top:-8px;
+        z-index:-1;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+        -moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+        -o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+        box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+    }
+
+    .custom-input-file:active {
+        padding-bottom:5px;
+        padding-left:6px;
+        padding-right:6px;
+        padding-top:7px;
+        top:1px;
+        background-image: linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -o-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -moz-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -webkit-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -ms-linear-gradient(bottom, rgb(240, 240, 240) 0%, rgb(130, 159, 228) 100%);
+        background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0, rgb(223, 236, 248)),
+            color-stop(1, rgb(203, 216, 228)),
+            color-stop(2, rgb(130, 159, 228))
+        );
+    }
+
